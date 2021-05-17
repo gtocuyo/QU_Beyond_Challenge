@@ -196,15 +196,20 @@ namespace QU.Challenge.App.Presentation
         {
             Console.WriteLine("\n============================");
 
-            Console.WriteLine("\n...And the top findings are:\n");
-
-            int i = 1;
-
-            foreach (Word_Response word in result.Words)
+            if (result.Words.Count > 0)
             {
-                Console.WriteLine(i + ".- \"" + word.Value + "\" ==> " + word.Count + " time(s).");
-                i++;
+                Console.WriteLine("\n...And the top findings are:\n");
+
+                int i = 1;
+
+                foreach (Word_Response word in result.Words)
+                {
+                    Console.WriteLine(i + ".- \"" + word.Value + "\" ==> " + word.Count + " time(s).");
+                    i++;
+                }
             }
+            else
+                Console.Write("None of the provided words where found in the matrix.");
 
             Console.WriteLine("\nThank you!");
             Console.WriteLine("\n============================\n\n");
