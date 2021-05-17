@@ -33,6 +33,6 @@ Finally, we will have our workaround (after cleaning up the input stream to get 
 
 **And last but not least, the solution has an example of Unit Testing where build matrix functionality is tested using xUnit as shown below:**
 
-<img src="Img/img_qu_challenge_4.jpg" width="80%"  />
+<img src="Img/img_qu_challenge_4.jpg" width="95%"  />
 
 
