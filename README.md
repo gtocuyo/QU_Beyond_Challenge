@@ -10,3 +10,5 @@ It's requested to build a solution for a "Word Finder" software wich, from a giv
 
 **The resulting solutions looks like this:**
 
+<img src="Img/consoleApp1.jpg" width="50%"  />
+<img src="Img/consoleApp2.jpg" width="50%"  />
