@@ -30,3 +30,9 @@ Then since we are asked to search the given words inside the matrix horzontally 
 <img src="Img/img_qu_challenge_3.jpg" width="80%"  />
 
 Finally, we will have our workaround (after cleaning up the input stream to get rid of possible repeated strings) to get the Top N (10) words from de input stream found in the collection built from the matrix using a couple of simple linq functions.
+
+**And last but not least, the solution has an example of Unit Testing where build matrix functionality is tested using xUnit as shown below:**
+
+<img src="Img/img_qu_challenge_4.jpg" width="80%"  />
+
+
